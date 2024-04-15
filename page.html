@@ -4,12 +4,52 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>Berita Republika</title>
+
   <link rel="stylesheet" href="/css/table.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mediaqueries.css">
+  <link rel="stylesheet" href="index.html">
 </head>
 <body>
-  <h1 style="text-align: center;">Berita Terkini Republika</h1>
+  <nav id="desktop-nav">
+    <a href="index.html">
+      <div class="logo">SN</div>
+  </a>
+    <div>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#myhopes">My Hopes</a></li>
+        <li><a href="index.html#technicalskills">Technical Skills</a></li>
+        <li><a href="index.html#bookrecs">Book Recs</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="page.html">DATA SCRAPING I</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <a href="index.html">
+      <div class="logo">SN</div>
+  </a>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="index.html#myhopes" onclick="toggleMenu()">My Hopes</a></li>
+        <li><a href="index.html#technicalskills" onclick="toggleMenu()">Technical Skills</a></li>
+        <li><a href="index.html#bookrecs" onclick="toggleMenu()">Book Recs</a></li>
+        <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        <li><a href="page.html">DATA SCRAPING I</a></li>
+      </div>
+    </div>
+  </nav>
+  <h1 class="title-heading">Berita Terkini Republika</h1>
   <div id="table-container"></div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="/js/table.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
