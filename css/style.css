@@ -9,9 +9,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: lightpink;
+  background-color:  #FFD1DC;
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -31,6 +30,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  background-color:   #F7A8BC;
   
 }
 
