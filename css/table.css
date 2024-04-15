@@ -22,13 +22,10 @@ table {
   }
   
   a:link, a:visited {
-    color: rgb(77, 77, 77);
+    color: rgb(40, 40, 43);
   }
   
   a:hover {
-    color: rgb(0, 66, 116);
+    color: rgb(8, 24, 168);
   }
   
-  .btn-update {
-    margin: 0 0 20px 10px;
-  }
