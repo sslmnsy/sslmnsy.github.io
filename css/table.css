@@ -1,31 +1,33 @@
 table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  thead {
-    background-color: #f2f2f2;
-  }
-  
-  th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  tr:hover {
-    background-color: #f5f5f5;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:link, a:visited {
-    color: rgb(40, 40, 43);
-  }
-  
-  a:hover {
-    color: rgb(8, 24, 168);
-  }
-  
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffe4e1;
+}
+thead {
+  background-color: rgb(255,182,193);
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: rgb(40, 40, 43);
+}
+
+a:hover {
+  color: rgb(8, 24, 168);
+}
+
+
+.title-heading {
+  text-align: center; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
